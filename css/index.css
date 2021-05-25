@@ -103,3 +103,18 @@ col {
 .card {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
 }
+
+.footer-container{
+    margin-top: 40px;
+  }
+  
+  .footer-container, .footer-content h2 {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .footer-content p {
+    text-align: center;
+    display: block;
+     
+  }
