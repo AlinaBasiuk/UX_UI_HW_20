@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-img {
+    width: 50
+}
+button, .mockups {
+    background-color: #075E83;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 5px;
+  }
+  button, .mockups:hover{
+    transition-duration: 0.4s;
+      background-color:#FA0606;
+      cursor: pointer;
+  }
+   
+h1 {
+      font-family: 'roboto' sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #FA0606;
+  }
+
+h2 { 
+    font-size: 22px;
+    font-weight: 800;
+    color:#075E83;
+    text-transform: uppercase;
+}
+
+h3 { 
+    font-size: 20px;
+    font-weight: 800;
+    color:#075E83;
+    
+}
+
+h4 { 
+    font-size: 16px;
+    font-weight: 700;
+   
+}
+
+p {
+    font-size: 16px;
+    font-weight: 600;
+}
+  
+.brief-container {
+  box-sizing: border;
+}
+  
+
+.brief-container {
+  max-width: 720px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px;
+}
+  
+.row {
+  display: flex;
+}
+  
+  @media screen and (max-width: 425px) {
+    flex-wrap: wrap;
+  }
+
+col {
+  width: 70%;
+  flex-direction: column;
+}
+  
+  @media screen and (max-width: 425px) {
+    width: 100%;
+  }
+     
+.col + .col {
+  margin-left: 2em;
+}
+  
+  @media screen and (max-width: 425px) {
+    margin-left: 0;
+}
+
+.how-might-we {
+    background-color: #075E83;
+    color: white;
+    padding: 7%;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+}
