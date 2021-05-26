@@ -1,7 +1,78 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+#navBar {
+    display: flex;
+    width: 100%;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    font-weight: uppercase;
+}
 
+#nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 35%;
+
+}
+
+#nav-links a{
+  letter-spacing: 0px;
+  display: block;
+  padding: 6px 5px 0 5px;
+  font-weight: 430;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+#nav-links li {
+  float: left;
+  display: block;
+  background: white;
+  position: relative;
+  z-index: 1000;
+  margin: 0 1px;
+}
+#nav-links ul {
+  position: absolute;
+  left: 0;
+  display: none;
+  margin: 0 0 0 -1px;
+  padding: 0;
+  list-style: none;
+}
+
+#nav-links ul li {
+  float: left;
+  border-top: 1px solid white;
+  width: 100%;
+  white-space: nowrap;
+}
+
+#nav-links ul a {
+  display: block;
+  height: 25px;
+  padding:  9px 15px;
+  color: black;
+  text-align: left;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+#nav-links a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFD374;
+}
 .hero-img {
     width: 50
 }
